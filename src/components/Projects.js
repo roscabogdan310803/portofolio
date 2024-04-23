@@ -49,7 +49,7 @@ const Projects = () => {
       des:'For this project, I wanted to level up and use Next.js to create a more dynamic website with multiple pages. My aim was to recreate a real-life commercial store experience. To achieve this, I integrated Sanity for handling real-time updates of products and tapped into the Stripe API for adding a payment method, making the site feel authentic. Additionally, I sprinkled in some animations using GSAP to add an extra touch of flair to the user experience.',
       live: 'https://s-hoop-v2.vercel.app/',
       language:'Next.Js, Stripe, Sanity, GSAP',
-      images:'/sHoopV2.png',
+      images:'/shoopv2.png',
       git:'https://github.com/roscabogdan310803/sHoopV2',
     },
   ]);
