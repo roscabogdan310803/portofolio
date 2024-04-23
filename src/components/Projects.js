@@ -33,6 +33,7 @@ const Projects = () => {
       name: 'Ai Image Generator',
       des:'So, I dove into web dev and got my hands dirty with JavaScript and APIs to whip up an AI image generator. With JavaScript wizardry, I hooked into APIs securely, letting users churn out AI-powered images. It was a blast learning to juggle async requests and tame API responses. This journey totally leveled up my JavaScript skills and gave me a solid grasp of how to make cool stuff happen on the web.',
       language:'JAVASCRIPT, API',
+      live: 'https://ai-gen-rb.netlify.app/',
       images:'/ai-generator.png',
       git:'https://github.com/roscabogdan310803/ai-image-generator',
     },
