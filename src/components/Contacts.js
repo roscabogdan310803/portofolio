@@ -22,7 +22,7 @@ const Contacts = () => {
   return (
     <section className="contacts" ref={refTab}>
       <div className="title" ref={(el) => el && divs.current.push(el)}>
-        Here you can reach out to me
+        Contact me at:
       </div>
       <div className="list" ref={(el) => el && divs.current.push(el)}>
         {

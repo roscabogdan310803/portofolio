@@ -89,7 +89,7 @@ const Projects = () => {
                 <div className="mission">
                     <div><FontAwesomeIcon icon={faEarthAmericas} /></div>
                     <div>
-                        <h4>Languages</h4>
+                        <h4>Libraries and Frameworks</h4>
                         <div className="des">{value.language}</div>
                     </div>
                 </div>
