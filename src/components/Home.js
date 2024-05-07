@@ -15,7 +15,7 @@ const Home = () => {
           <br />
           <big>Started</big> my journey in the world of web-development with the basics of HTML and CSS where i had a lot of fun seeing how i can create something from scratch and then dove a little deeper and saw how that thing I made was able to do something with the use of JavaScript, those things made me more curios and determined me to purse the path of web development.
           </div>
-        <a href='#' target='_blank' rel='noopener noreferrer'>Here you can find my CV</a>
+        <a href='cv.pdf' target='_blank' rel='noopener noreferrer'>Here you can find my CV</a>
       </div>
       <div className='avatar'>
         <div className="card">
