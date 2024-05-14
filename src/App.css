@@ -470,6 +470,7 @@ a{
       }
       & .avatar{
         grid-row-start: 1;
+        box-shadow:none;
       }
     }
     & .skils{
