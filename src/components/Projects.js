@@ -6,20 +6,20 @@ import CustomHook from './CustomHook'
 const Projects = () => {
   const [listProjects] = useState([
     {
-      name: 'Sliding Log in/Sign Up',
-      des:'This project was one of my first dives into CSS animations and getting the hang of HTML basics.',
-      live: 'https://roscabogdan310803.github.io/animated-login/',
-      language:'HTML, CSS',
-      images:'/loginanimated.png',
-      git:'https://github.com/roscabogdan310803/animated-login',
-    },
-    {
       name: 'sHoop',
       des:'In this project, I just wanted to see how my design skills held up and whether the site would look good on mobile. I kind of went with the flow, let my imagination run wild, and freestyled the page.',
       live: 'https://roscabogdan310803.github.io/shoop/',
       language:'HTML, CSS',
       images:'/shoop.png',
       git:'https://github.com/roscabogdan310803/shoop',
+    },
+    {
+      name: 'sHoopV2',
+      des:'For this project, I wanted to level up and use Next.js to create a more dynamic website with multiple pages. My aim was to recreate a real-life commercial store experience. To achieve this, I integrated Sanity for handling real-time updates of products and tapped into the Stripe API for adding a payment method, making the site feel authentic. Additionally, I sprinkled in some animations using GSAP to add an extra touch of flair to the user experience.',
+      live: 'https://s-hoop-v2.vercel.app/',
+      language:'Next.Js, Stripe, Sanity, GSAP',
+      images:'/sHoopV2.png',
+      git:'https://github.com/roscabogdan310803/sHoopV2',
     },
     {
       name: 'QR CODE Generator',
@@ -44,14 +44,6 @@ const Projects = () => {
       language:'React, TailwindCSS, THREE.js, GSAP',
       images:'/iphone.png',
       git:'https://github.com/roscabogdan310803/shoop',
-    },
-    {
-      name: 'sHoopV2',
-      des:'For this project, I wanted to level up and use Next.js to create a more dynamic website with multiple pages. My aim was to recreate a real-life commercial store experience. To achieve this, I integrated Sanity for handling real-time updates of products and tapped into the Stripe API for adding a payment method, making the site feel authentic. Additionally, I sprinkled in some animations using GSAP to add an extra touch of flair to the user experience.',
-      live: 'https://s-hoop-v2.vercel.app/',
-      language:'Next.Js, Stripe, Sanity, GSAP',
-      images:'/sHoopV2.png',
-      git:'https://github.com/roscabogdan310803/sHoopV2',
     },
   ]);
   const refTab = useRef();
