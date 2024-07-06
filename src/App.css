@@ -479,6 +479,9 @@ a{
       & .avatar{
         grid-row-start: 1;
         box-shadow:none;
+        & .card{
+          box-shadow: none;
+        }
       }
     }
     & .skils{
@@ -527,6 +530,7 @@ a{
     }
   }
 }
+
 
 .icon-bar{display: none;}
 
