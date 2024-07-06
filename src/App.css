@@ -529,3 +529,9 @@ a{
 }
 
 .icon-bar{display: none;}
+
+.btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
