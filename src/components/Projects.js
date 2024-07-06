@@ -30,6 +30,14 @@ const Projects = () => {
       git:'https://github.com/roscabogdan310803/qr-generator',
     },
     {
+      name: 'Finance Tracker',
+      des:"Creating my first full-stack application using the MERN stack, I developed a finance tracker to help users manage their finances by tracking income and expenses. Integrating secure user authentication with Clerk was a crucial aspect. Building the backend with Node.js, Express.js, and MongoDB for the database was a learning experience that enabled efficient data storage and management. Deploying both the backend and frontend for the first time provided valuable insights into seamless deployment and application integration.",
+      live: 'https://finance-project-iota.vercel.app/',
+      language:'MongoDB, Express.js, React-Vite, Node.js',
+      images:'/tracker.png',
+      git:'https://github.com/roscabogdan310803/tracker',
+    },
+    {
       name: 'Ai Image Generator',
       des:'So, I dove into web dev and got my hands dirty with JavaScript and APIs to whip up an AI image generator. With JavaScript wizardry, I hooked into APIs securely, letting users churn out AI-powered images. It was a blast learning to juggle async requests and tame API responses. This journey totally leveled up my JavaScript skills and gave me a solid grasp of how to make cool stuff happen on the web.',
       language:'JAVASCRIPT, API',
@@ -53,9 +61,6 @@ const Projects = () => {
     <section className="projects" ref={refTab}>
       <div className="title" ref={(el) => el && refDivs.current.push(el)}>
         Some projects that i did
-      </div>
-      <div className="des" ref={(el) => el && refDivs.current.push(el)}>
-        
       </div>
       <div className="list">
         {
@@ -83,7 +88,7 @@ const Projects = () => {
                     <div><FontAwesomeIcon icon={faEarthAmericas} /></div>
                     <div>
                         <h4>Libraries and Frameworks</h4>
-                        <div className="des">{value.language}</div>
+                        <div className="lib">{value.language}</div>
                     </div>
                 </div>
               </div>
