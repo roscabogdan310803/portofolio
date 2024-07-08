@@ -25,7 +25,7 @@ const Projects = () => {
       name: 'QR CODE Generator',
       des:'So, this project was basically my first big leap into web development. I was playing around with creating a QR code generator, you know, those funky little square codes? Anyway, I tinkered a lot with HTML and CSS to make everything look just right, but it was JavaScript that really brought it to life. I learned a ton about how JavaScript can make things happen on a webpage, like generating those QR codes on the fly. Overall, it was a fun and eye-opening experience that got me hooked on web development.',
       live: 'https://roscabogdan310803.github.io/qr-generator/',
-      language:'JAVASCRIPT',
+      language:'JavaScript',
       images:'/qrcode.png',
       git:'https://github.com/roscabogdan310803/qr-generator',
     },
@@ -40,7 +40,7 @@ const Projects = () => {
     {
       name: 'Ai Image Generator',
       des:'So, I dove into web dev and got my hands dirty with JavaScript and APIs to whip up an AI image generator. With JavaScript wizardry, I hooked into APIs securely, letting users churn out AI-powered images. It was a blast learning to juggle async requests and tame API responses. This journey totally leveled up my JavaScript skills and gave me a solid grasp of how to make cool stuff happen on the web.',
-      language:'JAVASCRIPT, API',
+      language:'JavaScript, API',
       live: 'https://ai-gen-rb.netlify.app/',
       images:'/ai-generator.png',
       git:'https://github.com/roscabogdan310803/ai-image-generator',
