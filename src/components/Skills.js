@@ -25,6 +25,11 @@ const Skills = () => {
       "React was my first dive into using libraries, and wow, it was a wild ride! I churned out loads of new apps, purely because I wanted to be my own teacher. From my perspective, React was a major milestone in my learning journey, teaching me how to manage websites and focus on one thing at a time to revamp them.",
     },
     {
+      name:'TypeScript',
+      des: 
+      "TypeScript is my latest coding fascination. Though I've only tried it once, I'm already hooked! It's a robust tool for enhancing JavaScript with strong typing, and I'm eager to explore it further. It feels like uncovering a whole new realm of structured and maintainable code, and I'm excited to see where it leads me.",
+    },
+    {
       name: 'TailwindCSS',
       des: 
       "Tailwind CSS is my go-to for web design magic. It's a supercharged toolbox that makes building sleek, modern websites a breeze. With Tailwind, I can create stunning layouts and styles effortlessly by adding pre-built classes directly into my HTML.",
@@ -43,12 +48,7 @@ const Skills = () => {
       name:'Git',
       des:
       "Git is my coding safety net. It tracks changes, simplifies collaboration, and gives me confidence knowing I can revert if needed. It's essential for staying organized and collaborating effectively on my coding journey."
-    },
-    {
-      name:'THREE.js',
-      des: 
-      "Three.js is my latest coding fascination. Though I've only tried it once, I'm already hooked! It's a robust tool for crafting stunning 3D graphics in the browser, and I'm eager to explore it further. It feels like uncovering a whole new realm of creativity, and I'm excited to see where it leads me.",
-    },
+    }
     
   ]);
   const refTab = useRef();
