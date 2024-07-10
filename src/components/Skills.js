@@ -7,42 +7,42 @@ const Skills = () => {
   const [listSkills] = useState([
     {
       name: 'HTML',
-      des: "HTML was a head-scratcher back in high school, and coding wasn't something I thought about. But thanks to FreeCodeCamp, I got the basics down and even earned a certificate in HTML.",
+      des: "HTML was confusing for me in high school, and I didn't think about coding at all. But thanks to FreeCodeCamp, I learned the basics and even got a certificate in HTML.",
     },
     {
       name: 'CSS',
-      des: 'I had no clue about CSS before, but now I am all about it! I learned it from FreeCodeCamp and YouTube, fueled by my curiosity to make cool websites. So, I did some digging and figured it out.',
+      des: "At first, I didn't know anything about CSS, but now I'm into it! I learned it from FreeCodeCamp and YouTube because I wanted to make cool websites, so I did some digging and figured it out.",
     },
     {
       name: 'JavaScript',
       des: 
-      "JavaScript was a challenge to grasp at first, but it was too crucial to overlook. I dove into JavaScript to jazz up my site with interactive features and to handle APIs, making things more dynamic and engaging.",
+      "JavaScript was hard to understand at first, but I knew it was important. I used it to add interactive features to my site and handle APIs, making things more dynamic and engaging.",
       
     },
     {
       name: 'React',
       des: 
-      "React was my first dive into using libraries, and wow, it was a wild ride! I churned out loads of new apps, purely because I wanted to be my own teacher. From my perspective, React was a major milestone in my learning journey, teaching me how to manage websites and focus on one thing at a time to revamp them.",
+      "React was my introduction to using libraries, and it was a wild ride! I created lots of new apps because I wanted to be my own teacher. From where I'm standing, React was a big step forward in my learning journey. It taught me how to manage websites and focus on one thing at a time to improve them.",
     },
     {
       name:'TypeScript',
       des: 
-      "TypeScript is my latest coding fascination. Though I've only tried it once, I'm already hooked! It's a robust tool for enhancing JavaScript with strong typing, and I'm eager to explore it further. It feels like uncovering a whole new realm of structured and maintainable code, and I'm excited to see where it leads me.",
+      "TypeScript is my newest coding interest. Even though I've only used it once, I'm already into it! It's a strong tool for enhancing JavaScript with strong typing, and I'm eager to explore it more. It feels like discovering a whole new way of writing code, and I'm excited to see where it takes me.",
     },
     {
       name: 'TailwindCSS',
       des: 
-      "Tailwind CSS is my go-to for web design magic. It's a supercharged toolbox that makes building sleek, modern websites a breeze. With Tailwind, I can create stunning layouts and styles effortlessly by adding pre-built classes directly into my HTML.",
+      "Tailwind CSS is one of my go to's for web design. It's a great toolbox that makes building modern websites easy. With Tailwind, I can create layouts and styles easily by adding pre-built classes directly into my HTML.",
     },
     {
       name: 'GSAP',
       des: 
-      "GSAP is my secret weapon for web animation. It's a powerhouse tool that brings websites to life with stunning motion effects. With GSAP, I create eye-catching animations that captivate users, adding that extra spark to web design and making experiences unforgettable.",
+      "GSAP is my secret for web animation. It brings websites to life with motion effects. With GSAP, I create animations that capture users' attention, adding that extra touch to web design and making experiences memorable.",
     },
     {
       name: 'Next.js',
       des: 
-      "Next.js was my next step after React, and it blew my mind! It's React but supercharged, with server-side rendering and other cool features built-in. Exploring Next.js was a game-changer for me, taking my web projects to new heights effortlessly. It felt like a natural progression, empowering me to build faster, more dynamic sites with confidence."
+      "Next.js was my next step after React, and it was amazing! It's like a more powerful version of React, with server-side rendering and other cool features built-in. Exploring Next.js was a game-changer for me, taking my web projects to new levels easily."
     },
     {
       name:'Git',
