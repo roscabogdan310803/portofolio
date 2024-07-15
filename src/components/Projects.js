@@ -32,7 +32,7 @@ const Projects = () => {
     {
       name: 'Finance Tracker',
       des:"Creating my first full-stack application using the MERN stack, I developed a finance tracker to help users manage their finances by tracking income and expenses. Integrating secure user authentication with Clerk was a crucial aspect. Building the backend with Node.js, Express.js, and MongoDB for the database was a learning experience that enabled efficient data storage and management. Deploying both the backend and frontend for the first time provided valuable insights into seamless deployment and application integration.",
-      live: "https://vercel.com/bogdans-projects-9f7f1e55/financetracker",
+      live: "https://financetracker-iota.vercel.app/",
       language:'MongoDB, Express.js, React-Vite, Node.js',
       images:'/tracker.png',
       git:'https://github.com/roscabogdan310803/financetracker',
